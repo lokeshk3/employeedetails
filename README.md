@@ -1,1 +1,1 @@
-# Emp Details APP for CI/CD
+# Emp Details APP CI/CD
