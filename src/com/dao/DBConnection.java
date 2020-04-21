@@ -6,7 +6,7 @@ import java.sql.*;
 public class DBConnection {
 	
 	public static final String DRIVER = "com.mysql.cj.jdbc.Driver";
-	public static final String URL = "jdbc:mysql://127.0.0.1:3306/test?serverTimezone=UTC";
+	public static final String URL = "jdbc:mysql://172.168.1.163:3306/test";
 	public static final String HOST = "root";
 	public static final String PASSWORD = "Renu@12345";
 
