@@ -8,7 +8,7 @@ public class DBConnection {
 	public static final String DRIVER = "com.mysql.cj.jdbc.Driver";
 	public static final String URL = "jdbc:mysql://172.168.1.163:3306/test";
 	public static final String HOST = "root";
-	public static final String PASSWORD = "Renu@12345";
+	public static final String PASSWORD = "Renu_12345";
 
 		public static Connection createConnection() throws Exception {
 			System.out.println("Database connection to Test-lokesh.");
