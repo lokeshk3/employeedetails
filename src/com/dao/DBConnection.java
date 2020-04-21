@@ -6,11 +6,12 @@ import java.sql.*;
 public class DBConnection {
 	
 	public static final String DRIVER = "com.mysql.cj.jdbc.Driver";
-	public static final String URL = "jdbc:mysql://localhost:3306/test?serverTimezone=UTC";
+	public static final String URL = "jdbc:mysql://127.0.0.1:3306/test?serverTimezone=UTC";
 	public static final String HOST = "root";
 	public static final String PASSWORD = "Renu@12345";
 
 		public static Connection createConnection() throws Exception {
+			System.out.println("Database connection to Test-lokesh.");
 			Class.forName(DRIVER);
             Connection con = DriverManager.getConnection(URL, HOST, PASSWORD);
             System.out.println("Database Connection established successfully.");
